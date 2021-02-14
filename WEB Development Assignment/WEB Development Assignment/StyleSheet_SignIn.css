@@ -1,0 +1,89 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://image.freepik.com/free-photo/woman-hand-watering-young-plant-natural-mountain-background_104033-7.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.SignUpBox {
+    position: absolute;
+    top: 35%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 525px;
+    padding: 80px 30px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.user {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    top: 45px;
+    left: 15px;
+    position : absolute;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: forestgreen;
+    font-size : 40px;
+}
+
+.lblNIC, .lblPassword{
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+}
+
+.txtNIC, .txtPassword,.btnSubmit {
+    width : 100%;
+    margin-bottom : 20px;
+}
+
+.txtNIC, .txtPassword{
+    border: none;
+    border-bottom: 3px solid black;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 12px;
+    background-color: transparent;
+}
+
+::placeholder {
+    color: rgb(85, 75, 75);
+}
+
+.btnSubmit {
+    border : none;
+    outline : none;
+    height : 40px;
+    font-size : 16px;
+    color : #fff;
+    background-color : rgb(255, 9, 9);
+    cursor : pointer;
+    border-radius : 20px;
+    transition : .3s ease-in-out; 
+}
+
+.btnSubmit:hover {
+    background-color : #4cff00;
+}
+
+.btnsignup {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.btnSignup:hover {
+    text-decoration:underline;
+    color : white;
+}

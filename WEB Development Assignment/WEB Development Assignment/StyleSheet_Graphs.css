@@ -1,0 +1,24 @@
+﻿body {
+    background-image: url('Images/graphimage.jpg');
+}
+
+h1 {
+    font-family: Verdana;
+    margin-left: 22%;
+    font-size: 350%;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: Verdana;
+    margin-left: 46%;
+    font-size: 200%;
+    color: #ffffff;
+}
+
+h3 {
+    font-family: Verdana;
+    margin-left: 42%;
+    font-size: 200%;
+    color: #ffffff;
+}
